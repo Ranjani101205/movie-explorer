@@ -1,0 +1,44 @@
+:root {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #202a27;
+  background: #f3f5f1;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #202a27;
+  --muted: #66716c;
+  --line: #dce2dc;
+  --paper: #ffffff;
+  --accent: #d35c3f;
+  --accent-dark: #ad442f;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
